@@ -56,14 +56,14 @@ python run_mlm.py \
 For the second experiment involving the Marian model and the IWSLT 2017 dataset, navigate to the translation directory and install additional requirements:
 
 ```bash
-cd NeuralAttention/transformers-main/examples/pytorch/translation
+cd examples/pytorch/translation/
 pip install -r requirements.txt
 ```
 
 Then, execute the following command:
 
 ```bash
-python examples/pytorch/translation/run_translation.py \
+python run_translation.py \
     --model_name_or_path Helsinki-NLP/opus-mt-de-en \
     --do_train \
     --do_eval \
